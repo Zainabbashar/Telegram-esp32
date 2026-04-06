@@ -7,7 +7,7 @@ app.use(express.json());
 const BOT_TOKEN = "8397071425:AAG8n8ghvexw09f7MDIFDwKcs0_n1e7hYkQ";
 const CHAT_ID = "5488963789";
 
-app.post("/send", async (req, res) => {
+app.get("/send", async (req, res) => {
   const message = req.body.message;
 
   try {
