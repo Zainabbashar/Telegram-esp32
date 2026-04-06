@@ -4,8 +4,8 @@ const axios = require("axios");
 const app = express();
 app.use(express.json());
 
-const BOT_TOKEN = "PUT_YOUR_BOT_TOKEN";
-const CHAT_ID = "PUT_YOUR_CHAT_ID";
+const BOT_TOKEN = "8397071425:AAG8n8ghvexw09f7MDIFDwKcs0_n1e7hYkQ";
+const CHAT_ID = "5488963789";
 
 app.post("/send", async (req, res) => {
   const message = req.body.message;
