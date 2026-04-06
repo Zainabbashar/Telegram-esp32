@@ -8,7 +8,7 @@ const BOT_TOKEN = "8397071425:AAG8n8ghvexw09f7MDIFDwKcs0_n1e7hYkQ";
 const CHAT_ID = "5488963789";
 
 app.get("/send", async (req, res) => {
-  const message = req.body.message;
+  const message = req.query.message;
 
   try {
     await axios.post(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
