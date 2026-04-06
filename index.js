@@ -6,7 +6,7 @@ app.use(express.json());
 
 const BOT_TOKEN = "8397071425:AAG8n8ghvexw09f7MDIFDwKcs0_n1e7hYkQ";
 const CHAT_ID = "5488963789";
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "";
 
 // ===== TELEGRAM SEND =====
 async function sendToTelegram(message) {
