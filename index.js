@@ -6,7 +6,7 @@ app.use(express.json());
 
 const BOT_TOKEN = "8397071425:AAG8n8ghvexw09f7MDIFDwKcs0_n1e7hYkQ";
 const CHAT_ID = "5488963789";
-const OPENAI_API_KEY = "";
+const OPENAI_API_KEY = process.env.OPENAI_KEY;
 
 // ===== TELEGRAM SEND =====
 async function sendToTelegram(message) {
